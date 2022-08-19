@@ -90,6 +90,11 @@ def main():
         enviaremailmensaje(email,mensaje)        
         pyautogui.moveTo(1866, 1223)
         pyautogui.click()
+        
+        acciones.ir('https://open.spotify.com/artist/79y2edTYTHJtBpwcVuCnhH')
+        time.sleep(5)
+        pyautogui.moveTo(1065, 745)
+        pyautogui.click()  
 
         acciones.albumfollow()
 
